@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Company {
@@ -9,6 +10,19 @@ public abstract class Company {
 
     public String getOib() {
         return oib;
+    }
+
+    public Company() {
+        this.employees= new ArrayList<>();
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "name='" + this.getClass().getSimpleName() + '\'' +
+                "oib='" + oib + '\'' +
+                ", address=" + address +
+                '}';
     }
 
     public void setOib(String oib) {

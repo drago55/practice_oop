@@ -6,6 +6,38 @@ public class Employee {
     private String oib;
     private Address address;
     private Salary salary;
+    private Company company;
+    private String phoneNumber;
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", oib='" + oib + '\'' +
+                ", address=" + address +
+                ", salary=" + salary +
+                ", works at =" + company +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
 
     public Salary getSalary() {
         return salary;

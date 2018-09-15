@@ -1,11 +1,33 @@
 public class Address {
 
     private String city;
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
+    }
+
+    private String zipCode;
     private String streetAddress;
     private String country;
 
     public String getCounty() {
         return county;
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", streetAddress='" + streetAddress + '\'' +
+                ", country='" + country + '\'' +
+                ", county='" + county + '\'' +
+                ", state='" + state + '\'' +
+                '}';
     }
 
     public void setCounty(String county) {
