@@ -1,3 +1,5 @@
+package company;
+
 public class Address {
 
     private String city;
@@ -20,7 +22,7 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
+        return "company.Address{" +
                 "city='" + city + '\'' +
                 ", zipCode='" + zipCode + '\'' +
                 ", streetAddress='" + streetAddress + '\'' +

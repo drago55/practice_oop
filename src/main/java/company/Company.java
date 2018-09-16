@@ -1,3 +1,5 @@
+package company;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,12 +15,12 @@ public abstract class Company {
     }
 
     public Company() {
-        this.employees= new ArrayList<>();
+        this.employees = new ArrayList<>();
     }
 
     @Override
     public String toString() {
-        return "Company{" +
+        return "company.Company{" +
                 "name='" + this.getClass().getSimpleName() + '\'' +
                 "oib='" + oib + '\'' +
                 ", address=" + address +

@@ -1,3 +1,5 @@
+package company;
+
 public class Employee {
 
     private String firstName;
@@ -27,7 +29,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "company.Employee{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +

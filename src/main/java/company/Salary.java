@@ -1,3 +1,5 @@
+package company;
+
 import java.math.BigDecimal;
 
 public final class Salary {
@@ -14,7 +16,7 @@ public final class Salary {
 
     @Override
     public String toString() {
-        return "Salary{" +
+        return "company.Salary{" +
                 "amount=" + amount +
                 '}';
     }

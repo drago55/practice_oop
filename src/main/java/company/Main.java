@@ -1,11 +1,10 @@
+package company;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
-
-    private Company company;
 
     private Employee pero;
     private Employee pero2;
@@ -23,7 +22,7 @@ public class Main {
     private Salary moreThan5000= new Salary(new BigDecimal(5050));
     private Company companyKonzum = new Konzum();
     private Company companyLidl= new Lidl();
-    private static List<Company> listOfCompany=  new ArrayList<Company>();
+    private static List<Company> listOfCompany=  new ArrayList<>();
 
 
     public static void main(String[] args) {
@@ -37,7 +36,7 @@ public class Main {
         main.createEmployees();
 
         listOfCompany.stream()
-                .filter((company) -> company instanceof Konzum)//mogli bi filtrirati po adresi konzuma
+                .filter((company) -> company instanceof Konzum)//mogli bi filtrirati jos i po adresi konzuma
                 .findFirst().get()
                 .getEmployees().stream()
                 .filter(konzumEmployee ->
@@ -166,14 +165,14 @@ public class Main {
         dragoAddress.setStreetAddress("Vukovarska 207");
         dragoAddress.setZipCode("31000");
 
-        //Konzum address
+        //company.Konzum address
         konzumAddress = new Address();
         konzumAddress.setStreetAddress("Ilica 231");
         konzumAddress.setCountry("Croatia");
         konzumAddress.setZipCode("10000");
         konzumAddress.setCounty("Grad Zagreb");
 
-        //Lidl Address
+        //company.Lidl company.Address
         lidlAddress= new Address();
         lidlAddress.setZipCode("10000");
         lidlAddress.setCountry("Croatia");
