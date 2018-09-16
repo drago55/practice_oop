@@ -144,5 +144,20 @@ class SolutionTest {
 
         Assertions.assertEquals(expectedCost, actualCost);
     }
+    @Test
+    public void testSolutionOneHourAndOneMinute() {
+
+        //Given
+        //Format is HH:MM
+        String timeEntered = "10:13";
+        String timeLeft = "11:14";
+        Solution s = new Solution();
+
+        int expectedCost = 9;
+        int actualCost = s.solution(timeEntered, timeLeft);
+
+
+        Assertions.assertEquals(expectedCost, actualCost);
+    }
 
 }

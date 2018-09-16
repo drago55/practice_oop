@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6482d147-7259-4063-90d1-929b05618ca5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/practice_oop.iml" afterPath="$PROJECT_DIR$/practice_oop.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Address.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Company.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Konzum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lidl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Salary.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Address.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Client.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Company.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Konzum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lidl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Salary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking_lot/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/parking_lot/Solution.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking_lot/SolutionTest.java" afterPath="$PROJECT_DIR$/src/test/java/parking_lot/SolutionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,24 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/parking_lot/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="-227">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
               <folding>
-                <element signature="e#1470#1471#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/parking_lot/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1599">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="1700">
+              <caret line="100" column="16" lean-forward="false" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -399,24 +382,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2018.09.16 at 12h 27m 32s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2018.09.16 at 12h 28m 08s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2018.09.16 at 12h 29m 08s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2018.09.16 at 14h 03m 18s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2018.09.16 at 14h 08m 07s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2018.09.16 at 14h 16m 59s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest - 2018.09.16 at 14h 20m 41s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
@@ -427,6 +392,24 @@
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SolutionTest - 2018.09.16 at 14h 31m 02s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 14h 45m 54s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 14h 46m 15s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 14h 47m 32s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 14h 54m 01s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 15h 04m 03s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.09.16 at 15h 47m 23s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -455,7 +438,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36348686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32072368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -639,23 +622,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parking_lot/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/parking_lot/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="1700">
+          <caret line="100" column="16" lean-forward="false" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding>
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parking_lot/SolutionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parking_lot/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1599">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="-227">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
           </folding>
         </state>
       </provider>
