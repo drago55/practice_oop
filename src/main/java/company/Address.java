@@ -3,6 +3,23 @@ package company;
 public class Address {
 
     private String city;
+    private String zipCode;
+    private String streetAddress;
+    private String country;
+    private String county;
+    private String state;
+
+    public Address(String country, String city, String county, String streetAddress, String zipCode) {
+        this.country=country;
+        this.city=city;
+        this.county=county;
+        this.streetAddress=streetAddress;
+        this.zipCode=zipCode;
+    }
+
+    public String getCounty() {
+        return county;
+    }
 
     public String getZipCode() {
         return zipCode;
@@ -12,13 +29,6 @@ public class Address {
         this.zipCode = zipCode;
     }
 
-    private String zipCode;
-    private String streetAddress;
-    private String country;
-
-    public String getCounty() {
-        return county;
-    }
 
     @Override
     public String toString() {
@@ -35,8 +45,6 @@ public class Address {
     public void setCounty(String county) {
         this.county = county;
     }
-
-    private String county;
 
     public String getCity() {
         return city;
@@ -69,8 +77,6 @@ public class Address {
     public void setState(String state) {
         this.state = state;
     }
-
-    private String state;
 
 
 }

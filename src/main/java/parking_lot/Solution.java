@@ -19,7 +19,7 @@ public class Solution {
         if (totalHours == 0 && partialHour == 0) {
             return PARKING_ENTRY_FEE;
         }
-        System.out.println("partial hours:" + partialHour + " hour "+ hours +" totalHours:" + totalHours + " extraHours:" + (totalHours - 1));
+        System.out.println("partial hours:" + partialHour + " hour " + hours + " totalHours:" + totalHours + " extraHours:" + (totalHours - 1));
         return PARKING_ENTRY_FEE + PARKING_FIRST_HOUR_FEE + ((totalHours - 1) * REGULAR_PARKING_HOUR_FEE);
     }
 
@@ -36,8 +36,8 @@ public class Solution {
     }
 
     private int getPartialHour(String s, String s1) {
-        return  (59-Integer.valueOf(s).intValue() + Integer.valueOf(s1).intValue()) <= 59 ? 0 : 1;
-     }
+        return (59 - Integer.valueOf(s).intValue() + Integer.valueOf(s1).intValue()) <= 59 ? 0 : 1;
+    }
 
     private int getHour(String s, String s1) {
         return Integer.valueOf(s1).intValue() - Integer.valueOf(s).intValue();

@@ -1,5 +1,7 @@
 package company;
 
+import java.math.BigDecimal;
+
 public class Employee {
 
     private String firstName;
@@ -7,9 +9,16 @@ public class Employee {
     private int age;
     private String oib;
     private Address address;
-    private Salary salary;
+    private BigDecimal salary;
     private Company company;
     private String phoneNumber;
+
+    public Employee(String firstName, String lastName, int age, String oib) {
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.age=age;
+        this.oib=oib;
+    }
 
     public Company getCompany() {
         return company;
@@ -34,18 +43,18 @@ public class Employee {
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
                 ", oib='" + oib + '\'' +
-                ", address=" + address +
-                ", salary=" + salary +
+                ", address =" + address +
+                ", salary =" + salary +
                 ", works at =" + company +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
 
-    public Salary getSalary() {
+    public BigDecimal getSalary() {
         return salary;
     }
 
-    public void setSalary(Salary salary) {
+    public void setSalary(BigDecimal salary) {
         this.salary = salary;
     }
 

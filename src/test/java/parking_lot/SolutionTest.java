@@ -19,6 +19,7 @@ class SolutionTest {
 
         Assertions.assertEquals(expectedCost, actualCost);
     }
+
     @Test
     public void testSolutionLastMinute() {
 
@@ -49,6 +50,7 @@ class SolutionTest {
 
         Assertions.assertEquals(expectedCost, actualCost);
     }
+
     @Test
     public void testSolutionOneMinute() {
 
@@ -129,6 +131,7 @@ class SolutionTest {
 
         Assertions.assertEquals(expectedCost, actualCost);
     }
+
     @Test
     public void testSolutionFromZeroMinuteToFiveMinute() {
 
@@ -144,6 +147,7 @@ class SolutionTest {
 
         Assertions.assertEquals(expectedCost, actualCost);
     }
+
     @Test
     public void testSolutionOneHourAndOneMinute() {
 

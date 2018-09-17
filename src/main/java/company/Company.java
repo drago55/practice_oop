@@ -6,6 +6,7 @@ import java.util.List;
 public abstract class Company {
 
     private String oib;
+    private String name;
     private List<Client> clients;
     private List<Employee> employees;
     private Address address;
@@ -18,10 +19,18 @@ public abstract class Company {
         this.employees = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "company.Company{" +
-                "name='" + this.getClass().getSimpleName() + '\'' +
+                "name='" + name + '\'' +
                 "oib='" + oib + '\'' +
                 ", address=" + address +
                 '}';
